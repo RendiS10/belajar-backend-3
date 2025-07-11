@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Daftar Mahasiswa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Daftar Mahasiswa</h1>
+    <div id="status"></div>
+    <table id="mahasiswa-table" border="1">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nama</th>
+          <th>Jurusan</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data mahasiswa akan ditampilkan di sini -->
+      </tbody>
+    </table>
+    <h2>Tambah Mahasiswa Baru</h2>
+    <form id="form-tambah">
+      <input type="text" id="nama" placeholder="Nama" required />
+      <input type="text" id="jurusan" placeholder="Jurusan" required />
+      <button type="submit">Tambah</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
