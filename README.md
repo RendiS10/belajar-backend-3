@@ -50,4 +50,3 @@ Buka file `frontend/index.html` di browser.
 
 ---
 
-© PT Teknologi Edukasi Indonesia, 2024. Materi ini hanya untuk pembelajaran.
